@@ -1,4 +1,4 @@
-# itreset @website and @blg
+# itreset @website and @blog
 
 
 ### Copyright
