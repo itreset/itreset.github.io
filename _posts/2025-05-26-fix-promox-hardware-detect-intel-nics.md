@@ -10,7 +10,7 @@ hidden: true
 
 Sometimes, Intel NICs can cause a server’s network card to freeze with the error message Proxmox How To Fix Proxmox Detected Hardware Unit Hang. This affects several NIC models. The problem appears to occur when the network is under load. On a Proxmox network, this can be particularly problematic when you are running backups. The NIC adapter will freeze but the server is still online, it’s just unresponsive. A Proxmox Detected Hardware Unit Hang will appear in the syslog files.
 
-
+## Log Files
 In your /var/log/syslog file, you may notice lines like this;
 
 ```html
@@ -40,7 +40,7 @@ Mar 14 14:17:18 server91 kernel: [6045461.092812] vmbr0: port 1(eno1) entered fo
 
 This indicates you are running one of the Intel NICs affected by this problem. A fix was issued but this did not resolve the problem and Intel do not expect to fix the issue. A Bugzilla for this appears at https://bugzilla.kernel.org/show_bug.cgi?id=47331
 
-Known NIC Adapters Affected
+## Known NIC Adapters Affected
 So you can check your NIC model by issuing the below command in a console where you have root privileges. This doesn’t just happen on Proxmox servers. The error can appear at random and does not always happen.
 
 ```html
@@ -62,7 +62,7 @@ Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
 ---
 ```
 
-Fix Proxmox Detected Hardware Unit Hang
+## Fix Proxmox Detected Hardware Unit Hang
 The only way to resolve this is to disable features on your NIC adapter. This is not the preferable way but it’s better than your whole server being knocked offline. To temporarily implement this fix, issue the following command.
 
 ```html
