@@ -3,7 +3,7 @@ layout: post
 title:  "How To Fix Proxmox Detected Hardware Unit Hang On Intel NICs"
 author: krzysiek
 categories: [ Jekyll, tutorial ]
-image: "https://photos.app.goo.gl/SG1EEyGFhsCJc6u76"
+image: "https://photos.google.com/share/AF1QipPK2VABAOmQHGvAuU79Q__gPInKrHYBrCqMQypRFiRr-8giXIVu0gvJkqQgQO-lFQ/photo/AF1QipO8ACa2UFHYusbTKul4r_HuVN6uUlzWlxtZs0bC?key=VjhOTUtOcGFBWnJ3SjZrOEdRRlR1R3RNLTRkbXl3"
 featured: true
 hidden: true
 ---
