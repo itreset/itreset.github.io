@@ -8,26 +8,33 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>itreset-pl – a fresh start for IT engineering
-“The future of IT restarts here” – this is more than a motto; it’s the direction that shapes our content.
+ <h1>itreset-pl – A Fresh Start for IT Engineering</h1>
+  <p><strong>“The future of IT restarts here”</strong> – this is more than a motto; it’s the direction that shapes our content.</p>
 
-If you're passionate about IT infrastructure, operating systems, virtualization, automation, networking, and building your own homelab environments – you're in the right place.
+  <p>
+    If you're passionate about IT infrastructure, operating systems, virtualization, automation, networking, and building your own homelab environments – you're in the right place.
+  </p>
 
-itreset is a blog created by a tech enthusiast who shares hands-on knowledge in areas such as:
+  <p>
+    <strong>itreset</strong> is a blog created by a tech enthusiast who shares hands-on knowledge in areas such as:
+  </p>
+  <ul>
+    <li>Server deployment and configuration (Linux, Windows Server)</li>
+    <li>Virtualization platforms (Proxmox, VMware, Hyper-V)</li>
+    <li>Network management (pfSense, VLANs, VPNs)</li>
+    <li>Task automation (Ansible, Bash, PowerShell)</li>
+    <li>Designing and testing setups in lab environments</li>
+    <li>Security and system administration best practices</li>
+  </ul>
 
-+ server deployment and configuration (Linux, Windows Server),
-+ virtualization platforms (Proxmox, VMware, Hyper-V),
-+ network management (pfSense, VLANs, VPNs),
-+ task automation (Ansible, Bash, PowerShell),
-+ designing and testing setups in lab environments,
-+ security and system administration best practices.
+  <p>
+    You’ll find step-by-step tutorials, real-world configuration examples, hardware and software reviews, and insights from day-to-day work with technology.
+  </p>
 
-You’ll find step-by-step tutorials, real-world configuration examples, hardware and software reviews, and insights from day-to-day work with technology.
-
-This is a space for those who want to understand IT not just theoretically, but through practical application.
-We’re restarting the way we approach tech – with purpose, efficiency, and passion.
-
-</p>
+  <p>
+    This is a space for those who want to understand IT not just theoretically, but through practical application.
+    <br><strong>We’re restarting the way we approach tech – with purpose, efficiency, and passion.</strong>
+  </p>
 
 
 </div>

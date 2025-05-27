@@ -38,7 +38,7 @@ Mar 14 14:17:18 server91 kernel: [6045461.092812] vmbr0: port 1(eno1) entered fo
 ---
 ```
 
-This indicates you are running one of the Intel NICs affected by this problem. A fix was issued but this did not resolve the problem and Intel do not expect to fix the issue. A Bugzilla for this appears at <a target="_blank" href="https://bugzilla.kernel.org/show_bug.cgi?id=47331/">https://bugzilla.kernel.org/show_bug.cgi?id=47331</a>.
+This indicates you are running one of the Intel NICs affected by this problem. A fix was issued but this did not resolve the problem and Intel do not expect to fix the issue. A Bugzilla for this appears at <a target="_blank" href="https://bugzilla.kernel.org/show_bug.cgi?id=47331">https://bugzilla.kernel.org/show_bug.cgi?id=47331</a>.
 
 ## Known NIC Adapters Affected
 So you can check your NIC model by issuing the below command in a console where you have root privileges. This doesn’t just happen on Proxmox servers. The error can appear at random and does not always happen.
