@@ -46,7 +46,8 @@ comments: true
 
 <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://itreset.github.io/"> <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> 
+<!--<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a> -->
 
 </div>
 </div>
