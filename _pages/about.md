@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
- <h1>itreset-pl – A Fresh Start for IT Engineering</h1>
+ <h1>itreset – A Fresh Start for IT Engineering</h1>
   <p><strong>“The future of IT restarts here”</strong> – this is more than a motto; it’s the direction that shapes our content.</p>
 
   <p>
