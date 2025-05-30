@@ -46,8 +46,8 @@ So you can check your NIC model by issuing the below command in a console where 
 ```html
 ---
 lspci -v | grep Ethernet
-```html
 ---
+```
 
 In my case is was problem with below network card: 
 
@@ -55,8 +55,8 @@ In my case is was problem with below network card:
 ---
 root@dumbledore:~# lspci -v | grep Ethernet
 00:19.0 Ethernet controller: Intel Corporation 82579V Gigabit Network Connection (rev 04)
-```html
 ---
+```
 
 Other users have encountered an error on these network cards: 
 
