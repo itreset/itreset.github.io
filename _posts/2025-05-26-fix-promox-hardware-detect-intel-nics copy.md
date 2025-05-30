@@ -46,9 +46,19 @@ So you can check your NIC model by issuing the below command in a console where 
 ```html
 ---
 lspci -v | grep Ethernet
+```html
 ---
-```
-We have confirmed the error on these network adapters.
+
+In my case is was problem with below network card: 
+
+```html
+---
+root@dumbledore:~# lspci -v | grep Ethernet
+00:19.0 Ethernet controller: Intel Corporation 82579V Gigabit Network Connection (rev 04)
+```html
+---
+
+Other users have encountered an error on these network cards: 
 
 ```html
 ---
@@ -61,6 +71,7 @@ User Reported NICs
 Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
 ---
 ```
+
 
 ## Fix Proxmox Detected Hardware Unit Hang
 The only way to resolve this is to disable features on your NIC adapter. This is not the preferable way but it’s better than your whole server being knocked offline. To temporarily implement this fix, issue the following command.
