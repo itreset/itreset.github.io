@@ -21,7 +21,7 @@ comments: true
   <ul>
     <li>Server deployment and configuration (Linux, Windows Server)</li>
     <li>Virtualization platforms (Proxmox, VMware, Hyper-V)</li>
-    <li>Network management (pfSense, VLANs, VPNs)</li>
+    <li>Network management (pfSense/OPNsense, VLANs, VPNs)</li>
     <li>Task automation (Ansible, Bash, PowerShell)</li>
     <li>Designing and testing setups in lab environments</li>
     <li>Security and system administration best practices</li>
@@ -33,7 +33,7 @@ comments: true
 
   <p>
     This is a space for those who want to understand IT not just theoretically, but through practical application.
-    <br><strong>We’re restarting the way we approach tech – with purpose, efficiency, and passion.</strong>
+    <br><strong>I'm restarting the way we approach tech – with purpose, efficiency, and passion.</strong>
   </p>
 
 
@@ -46,7 +46,7 @@ comments: true
 
 <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://itreset.github.io/"> <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> 
+<a target="_blank" href="https://buycoffee.to/itresetpl" class="btn btn-danger">Buy me a coffee</a> 
 <!--<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a> -->
 
 </div>
