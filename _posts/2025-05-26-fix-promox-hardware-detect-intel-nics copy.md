@@ -2,7 +2,7 @@
 layout: post
 title:  "How To Fix Proxmox Detected Hardware Unit Hang On Intel NICs"
 author: krzysiek
-categories: [ proxmox, tutorial, tips ]
+categories: [ proxmox, tips ]
 image: assets/images/post20250526.png
 featured: true
 hidden: true
