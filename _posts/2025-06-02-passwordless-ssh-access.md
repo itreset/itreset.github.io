@@ -93,8 +93,9 @@ Linux srvoffice-rpi 6.1.21-v7+ #1642 SMP Mon Apr 3 17:20:52 BST 2023 armv7l
 Last login: Wed May 22 13:44:05 2024 from 10.10.169.3
 
 krzysiek@srv-rpi:~ $
-Notice that no password was required — the setup was successful.
 ```
+Notice that no password was required — the setup was successful.
+
 
 ## References
 This guide was heavily inspired by a blog post written by [Christopher Hart](https://chrisjhart.com/Windows-10-ssh-copy-id/#copy-ssh-key-to-remote-linux-device)
