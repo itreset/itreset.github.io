@@ -5,7 +5,7 @@ author: krzysiek
 categories: [ virtualization, tips ]
 image: assets/images/post20250529.png
 featured: true
-hidden: true
+hidden: false
 ---
 
 Are you starting your journey into penetration testing and want to avoid risking your main system? Virtual machines (VMs) are the perfect solution for anyone looking to learn hacking in a safe, controlled environment.
