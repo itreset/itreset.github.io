@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Check Which Names Are Assigned to NICs in Linuxs"
+title:  "How to Check Which Names Are Assigned to NICs in Linux"
 author: krzysiek
 categories: [ linux, tips ]
 image: assets/images/post20250530.png
