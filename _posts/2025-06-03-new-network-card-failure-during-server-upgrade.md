@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "New Network Card Failure During Server Upgradee"
-date: 2025-06-03 16:00:00 +0100
 author: krzysiek
 categories: [server, hardware]
 image: assets/images/post20250603.png

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Passwordless SSH Access from Windows to a Linux Device"
-date: 2024-05-24 10:00:00 +0100
 author: krzysiek
 categories: [windows, powershell, linux, ssh,]
 image: assets/images/post20250602.png
