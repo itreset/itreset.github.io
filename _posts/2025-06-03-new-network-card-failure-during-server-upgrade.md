@@ -10,7 +10,7 @@ hidden: false
 
 
 
- 🔥 **Unfortunately, the new network card decided to commit seppuku the moment I powered on the server.** 🔥
+ 🔥 **Unfortunately, the new network card decided to commit seppuku the moment I turned on the server..** 🔥
 
 While upgrading one server, I decided to install a brand new network card with two SFP+ ports — the goal was to add 25 GbE connectivity and improve overall performance. Unfortunately, instead of a smooth upgrade, I ran into a serious hardware failure…
 
