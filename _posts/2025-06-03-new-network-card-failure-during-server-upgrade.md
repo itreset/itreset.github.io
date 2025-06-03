@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Network Card Failure During Server Upgradee"
+title: "New Network Card Failure During Server Upgrade"
 author: krzysiek
 categories: [server, hardware]
 image: assets/images/post20250603.png
