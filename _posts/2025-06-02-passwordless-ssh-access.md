@@ -5,13 +5,13 @@ date: 2024-05-24 10:00:00 +0100
 author: krzysiek
 categories: [windows, powershell, linux, ssh,]
 image: assets/images/post20250602.png
-featured: true
+featured: false
 hidden: false
 ---
 
 The OpenSSH client in Windows 10 does not include the ssh-copy-id command that is commonly available in Linux systems. However, with a simple one-liner in PowerShell, we can replicate the functionality and copy the SSH public key to a remote Linux device — enabling passwordless login.
 
-1. ## Generating an SSH Key
+## 1️⃣ Generating an SSH Key
 
 > **Skip this step if you already have a working SSH key pair.** 
 
@@ -57,7 +57,7 @@ The key's randomart image is:
 PS C:\Users\kadamczak>
 ```
 
-2. ## Copying the SSH Key to a Remote Linux Device
+## 2️⃣ Copying the SSH Key to a Remote Linux Device
 To copy your public key to the remote Linux device, use the following one-liner in PowerShell:
 
 ```
@@ -74,7 +74,7 @@ type $env:USERPROFILE\.ssh\id_rsa.pub | ssh krzysiek@192.168.196.200 "cat >> ~/.
 
 You'll be asked for your password once. After successful execution, the key will be saved on the remote server.
 
-3. ## Testing Passwordless SSH Access
+## 3️⃣ Testing Passwordless SSH Access
 Now test the connection:
 
 ```
