@@ -4,7 +4,7 @@ title:  "How to Learn Hacking Safely? Use Virtual Machines"
 author: krzysiek
 categories: [ virtualization, tips ]
 image: assets/images/post20250529.png
-featured: true
+featured: false
 hidden: false
 ---
 
