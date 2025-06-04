@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> -->
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.favicon }}">
+<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.favicon }}">
+
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -71,14 +74,8 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                 </li>
 
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
 
-             <!--     <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li>
-              -->   
+                
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://www.youtube.com/@it-reset"><i class="fab fa-youtube-simple"></i> YouTube</a>
                 </li>
@@ -88,8 +85,18 @@ ga('send', 'pageview');
                 </li>
 
                 <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                </li>
+
+            <!--
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                </li>
+                
+                <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Template on Github</a>
                 </li>
+            --> 
 
                 {% include search-lunr.html %}
 

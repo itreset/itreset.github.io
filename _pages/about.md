@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About
 permalink: /about
 comments: true
 ---
@@ -8,16 +8,34 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+ <h1>itreset – A Fresh Start for IT Engineering</h1>
+  <p><strong>“The future of IT restarts here”</strong> – this is more than a motto; it’s the direction that shapes our content.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+  <p>
+    If you're passionate about IT infrastructure, operating systems, virtualization, automation, networking, and building your own homelab environments – you're in the right place.
+  </p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+  <p>
+    <strong>itreset</strong> is a blog created by a tech enthusiast who shares hands-on knowledge in areas such as:
+  </p>
+  <ul>
+    <li>Server deployment and configuration (Linux, Windows Server)</li>
+    <li>Virtualization platforms (Proxmox, VMware, Hyper-V)</li>
+    <li>Network management (pfSense/OPNsense, VLANs, VPNs)</li>
+    <li>Task automation (Ansible, Bash, PowerShell)</li>
+    <li>Designing and testing setups in lab environments</li>
+    <li>Security and system administration best practices</li>
+  </ul>
 
-<h4>Questions or bug reports?</h4>
+  <p>
+    You’ll find step-by-step tutorials, real-world configuration examples, hardware and software reviews, and insights from day-to-day work with technology.
+  </p>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+  <p>
+    This is a space for those who want to understand IT not just theoretically, but through practical application.
+    <br><strong>I'm restarting the way we approach tech – with purpose, efficiency, and passion.</strong>
+  </p>
+
 
 </div>
 
@@ -26,9 +44,10 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://itreset.github.io/"> <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<a target="_blank" href="https://buycoffee.to/itresetpl" class="btn btn-danger">Buy me a coffee</a> 
+<!--<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a> -->
 
 </div>
 </div>
