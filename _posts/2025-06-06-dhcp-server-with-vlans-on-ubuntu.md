@@ -192,7 +192,7 @@ chmod +x setup-multiscope-dhcp-vlan.sh
 sudo ./setup-multiscope-dhcp-vlan.sh
 ```
 
-**Script source:** [Click to view full script](/assets/files/setup-multiscope-dhcp-vlan-eng.sh)
+**Script source:** 
 
 ```bash
 #!/bin/bash
@@ -311,7 +311,7 @@ echo ""
 echo "✅ DHCP server is now running on interfaces: ${IFACE_LIST[*]}"
 
 ```
-
+[Click to download full script](/assets/files/setup-multiscope-dhcp-vlan-eng.sh)
 ---
 
 If you have any questions or want help extending this setup, feel free to reach out!
