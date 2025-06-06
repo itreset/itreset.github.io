@@ -192,7 +192,7 @@ chmod +x setup-multiscope-dhcp-vlan.sh
 sudo ./setup-multiscope-dhcp-vlan.sh
 ```
 
-**Script source:** [Click to view full script](#)
+**Script source:** [Click to view full script](/assets/files/setup-multiscope-dhcp-vlan-eng.sh)
 
 ```bash
 #!/bin/bash
