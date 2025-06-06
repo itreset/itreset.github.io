@@ -4,7 +4,7 @@ title:  "How to Check Which Names Are Assigned to NICs in Linux"
 author: krzysiek
 categories: [ linux, tips ]
 image: assets/images/post20250530.png
-featured: true
+featured: false
 hidden: false
 ---
 In Linux systems—especially when configuring servers, virtualization environments, or advanced networking setups—you often need to find out which physical network interfaces correspond to which system-assigned names, such as eth0, eno1, enp3s0, etc. The lshw tool is perfect for this task.

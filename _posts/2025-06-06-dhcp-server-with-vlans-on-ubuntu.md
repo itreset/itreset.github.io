@@ -4,8 +4,8 @@ title: "How to Set Up a DHCP Server with VLAN Support on Ubuntu 22.04 / 24.04"
 author: krzysiek
 categories: [linux]
 image: "assets/images/post20250606.png"
-featured: false
-hidden: true
+featured: true
+hidden: false
 ---
 
 
