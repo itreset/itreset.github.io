@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Monitoring Multi-Host Docker Setups with WUD via TCP and TLS"
+title: "Resetting a Forgotten Ubuntu Linux Password on WSL"
 author: krzysiek
 categories: [proxmox, linux, docker]
 image: "https://getwud.github.io/wud/assets/wud-arch.png"
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 🌟 Quick Tip for Resetting a Forgotten Ubuntu Linux Password on WSL! 🌟
