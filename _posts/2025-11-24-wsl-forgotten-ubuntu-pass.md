@@ -5,7 +5,7 @@ author: krzysiek
 categories: [proxmox, linux, docker]
 image: "https://getwud.github.io/wud/assets/wud-arch.png"
 featured: false
-hidden: false
+hidden: true
 ---
 
 🌟 Quick Tip for Resetting a Forgotten Ubuntu Linux Password on WSL! 🌟
