@@ -3,32 +3,65 @@ layout: post
 title: "Resetting a Forgotten Ubuntu Linux Password on WSL"
 author: krzysiek
 categories: [proxmox, linux, docker]
-image: "https://getwud.github.io/wud/assets/wud-arch.png"
-featured: false
-hidden: true
+image: assets/images/post20260115.png
+featured: true
+hidden: false
 ---
 
-🌟 Quick Tip for Resetting a Forgotten Ubuntu Linux Password on WSL! 🌟
 
-Did you know you can easily log in to the Ubuntu root account in Windows PowerShell and reset a forgotten password? 
+# Forgot your **Ubuntu account password in WSL**?  
+No need to reinstall the distribution — just run a few quick commands in **Windows PowerShell**.
 
-Here’s a step-by-step guide:
+---
 
-1.Open Windows PowerShell:
-Use the shortcut Win+X, then select i and tap Enter.
-Log in to the Ubuntu root account:
-𝙬𝙨𝙡 --𝙪𝙨𝙚𝙧 𝙧𝙤𝙤𝙩
-2.Change the password:
+### Open Windows PowerShell
+Use the shortcut **Win + X**, select **i**, and press **Enter**.
+
+---
+
+### Log in as root
+```bash
+wsl --user root
+```
+
+---
+
+### Change the password
+
 For the current user (root):
-𝙥𝙖𝙨𝙨𝙬𝙙
+
+```bash
+passwd
+```
+
 For another user:
-𝙥𝙖𝙨𝙨𝙬𝙙 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚
-This command will interactively ask you for a new password (twice). Note: Windows admin privileges are not required!
 
-3.Manage multiple WSL distributions:
-List the names of installed distributions:
-𝙬𝙨𝙡 -𝙡
-Specify the distribution to log into, for example, Ubuntu 20.04:
-𝙬𝙨𝙡 -𝙙 𝙐𝙗𝙪𝙣𝙩𝙪-20.04 --𝙪𝙨𝙚𝙧 𝙧𝙤𝙤𝙩
+```bash
+passwd username
+```
 
-Simplify your workflow and reset forgotten passwords with these handy commands! 🚀 
+💬 The system will ask you to enter the new password twice — and you're all set!
+
+---
+
+## Manage multiple WSL distributions
+
+List the installed distributions:
+
+```bash
+wsl -l
+```
+
+Log in to a specific distribution (for example, **Ubuntu 20.04**):
+
+```bash
+wsl -d Ubuntu-20.04 --user root
+```
+
+---
+
+💡 **Tip:** You don't need Windows admin privileges to reset a WSL password!
+
+Simplify your workflow and recover access to Ubuntu in seconds 🚀
+
+---
