@@ -6,6 +6,7 @@ categories: [server, hardware]
 image: assets/images/post20250603.png
 featured: true
 hidden: false
+comments: false
 ---
 
 

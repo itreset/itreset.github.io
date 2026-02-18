@@ -6,6 +6,7 @@ categories: [windows, powershell, linux, ssh,]
 image: assets/images/post20250602.png
 featured: false
 hidden: false
+comments: false
 ---
 
 The OpenSSH client in Windows 10 does not include the ssh-copy-id command that is commonly available in Linux systems. However, with a simple one-liner in PowerShell, we can replicate the functionality and copy the SSH public key to a remote Linux device — enabling passwordless login.

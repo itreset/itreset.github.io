@@ -23,6 +23,8 @@ authors:
     youtube: https://www.youtube.com/@it-reset
     description: "Author of itreset.github.io, a site dedicated to IT issues: virtualization, network configuration. This is a public notebook of instructions and problems encountered by the author of the blog.  "
 
+
+
 # Plugins
 plugins:
   - jekyll-paginate

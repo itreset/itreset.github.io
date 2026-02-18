@@ -6,6 +6,7 @@ categories: [ proxmox, tips ]
 image: assets/images/post20250526.png
 featured: true
 hidden: false
+comments: false
 ---
 
 Sometimes, Intel NICs can cause a server’s network card to freeze with the error message Proxmox How To Fix Proxmox Detected Hardware Unit Hang. This affects several NIC models. The problem appears to occur when the network is under load. On a Proxmox network, this can be particularly problematic when you are running backups. The NIC adapter will freeze but the server is still online, it’s just unresponsive. A Proxmox Detected Hardware Unit Hang will appear in the syslog files.

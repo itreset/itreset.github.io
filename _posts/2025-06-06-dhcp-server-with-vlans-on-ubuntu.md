@@ -6,6 +6,7 @@ categories: [linux]
 image: "assets/images/post20250606.png"
 featured: true
 hidden: false
+comments: false
 ---
 
 
