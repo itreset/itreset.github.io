@@ -6,6 +6,7 @@ categories: [proxmox, linux, docker]
 image: assets/images/post20260115.png
 featured: true
 hidden: false
+comments: false
 ---
 
 # Forgot your **Ubuntu account password in WSL**?  
