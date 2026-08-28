@@ -3,13 +3,11 @@ layout: post
 title:  "How to Log Off a Network Resource in Windows Using CMD"
 author: krzysiek
 categories: [ windows, tips ]
-image: 
+image: assets/images/post20260827.png
 featured: true
 hidden: false
 comments: false
 ---
-
-# How to Log Off a Network Resource in Windows Using CMD
 
 Windows can stubbornly hold on to active connections to network shares, mapped drives, and file servers. When you need to quickly disconnect a resource, clear a session, or remove cached credentials, the command line is the most reliable way to do it.
 
